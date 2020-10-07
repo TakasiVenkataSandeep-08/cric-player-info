@@ -1,0 +1,19 @@
+{
+  "name": "cric-player-info",
+  "version": "1.0.0",
+  "description": "Easy to use package to get updated cricket player information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cricket",
+    "players",
+    "cricinfo",
+    "crickapi",
+    "cricket-api",
+    "cricket"
+  ],
+  "author": "Anup Kashyap",
+  "license": "ISC"
+}
