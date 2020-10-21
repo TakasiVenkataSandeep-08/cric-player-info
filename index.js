@@ -62,7 +62,7 @@ var getPlayerData = function (playerId, summary) {
 			'id': playerId
 		};
 		request({
-			uri: "https://www.cricbuzz.com/profiles/" + playerId + "/",
+			uri: "https://cors-anywhere.herokuapp.com/"+"https://www.cricbuzz.com/profiles/" + playerId + "/",
 		}, function (error, response, body) {
 
 			var $ = cheerio.load(body);
